@@ -1,3 +1,3 @@
 # Demo
 
-Show how to use git, cmake, and building static library project and dynamic library project
+Practice on using git, cmake to build static library project and dynamic library project
