@@ -1,0 +1,4 @@
+/desktop/demo-repo/dynamic_link_project/build/CMakeFiles/dynamic_lib.dir
+/desktop/demo-repo/dynamic_link_project/build/CMakeFiles/main.dir
+/desktop/demo-repo/dynamic_link_project/build/CMakeFiles/edit_cache.dir
+/desktop/demo-repo/dynamic_link_project/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cc.o -o main  -Wl,-rpath,/desktop/demo-repo/dynamic_link_project/build libdynamic_lib.so 
