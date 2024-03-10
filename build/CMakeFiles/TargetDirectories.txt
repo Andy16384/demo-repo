@@ -1,0 +1,3 @@
+/share/demo-repo/build/CMakeFiles/demo-repo.dir
+/share/demo-repo/build/CMakeFiles/edit_cache.dir
+/share/demo-repo/build/CMakeFiles/rebuild_cache.dir
