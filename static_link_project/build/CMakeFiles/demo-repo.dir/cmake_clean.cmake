@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo-repo.dir/main.cc.o.d"
   "CMakeFiles/demo-repo.dir/tool.cc.o"
   "CMakeFiles/demo-repo.dir/tool.cc.o.d"
-  "main.exe"
-  "main.exe.pdb"
+  "main.out"
+  "main.out.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

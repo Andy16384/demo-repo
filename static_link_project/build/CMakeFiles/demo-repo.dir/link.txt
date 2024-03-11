@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/demo-repo.dir/main.cc.o CMakeFiles/demo-repo.dir/tool.cc.o -o main.exe 
+/usr/bin/c++ CMakeFiles/demo-repo.dir/main.cc.o CMakeFiles/demo-repo.dir/tool.cc.o -o main.out 
