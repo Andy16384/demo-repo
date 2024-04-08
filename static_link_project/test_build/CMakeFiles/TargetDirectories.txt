@@ -1,0 +1,3 @@
+/desktop/demo-repo/static_link_project/test_build/CMakeFiles/demo-repo.dir
+/desktop/demo-repo/static_link_project/test_build/CMakeFiles/edit_cache.dir
+/desktop/demo-repo/static_link_project/test_build/CMakeFiles/rebuild_cache.dir
