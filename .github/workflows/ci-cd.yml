@@ -26,4 +26,5 @@ jobs:
       - name: Run Tests
         run: |
           cd static_link_project/build
+          ./main.out
           ctest --output-on-failure
