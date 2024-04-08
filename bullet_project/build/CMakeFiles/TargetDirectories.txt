@@ -1,0 +1,3 @@
+/desktop/demo-repo/bullet_project/build/CMakeFiles/mytest.dir
+/desktop/demo-repo/bullet_project/build/CMakeFiles/edit_cache.dir
+/desktop/demo-repo/bullet_project/build/CMakeFiles/rebuild_cache.dir
