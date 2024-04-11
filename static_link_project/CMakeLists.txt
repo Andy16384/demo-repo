@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(demo-repo)
 
 # set(GTEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../extern/googletest")
-set(GTEST_DIR "/usr/src/googletest" CACHE PATH "Path to the Google Test framework")
+# set(GTEST_DIR "/usr/src/googletest" CACHE PATH "Path to the Google Test framework")
 
 include_directories(/usr/include/)
 
