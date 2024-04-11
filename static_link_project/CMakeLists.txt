@@ -1,20 +1,21 @@
 cmake_minimum_required(VERSION 3.10)
 project(demo-repo)
+find_package(GTest REQUIRED)
 
-set(GTEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../extern/googletest")
+if(NOT GTest_FOUND)
+    message(FATAL_ERROR "Google Test not found. Please set GTEST_ROOT to the directory containing Google Test.")
+endif()
 
-include_directories(${GTEST_DIR}/googletest/include)
+include_directories(${GTEST_INCLUDE_DIRS})
 
 add_library(demo-repo-library STATIC main.cc tool.cc)
-
 add_executable(main main.cc tool.cc)
 add_executable(unit_tests test_tool.cc tool.cc)
 
 # Specify include directories
 target_link_libraries(unit_tests
     demo-repo-library
-    ${GTEST_DIR}/build/lib/libgtest.a
-    ${GTEST_DIR}/build/lib/libgtest_main.a
+    GTest::GTest GTest::Main
 )
 
 enable_testing()
