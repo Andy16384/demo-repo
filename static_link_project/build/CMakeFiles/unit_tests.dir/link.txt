@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/unit_tests.dir/test_tool.cc.o CMakeFiles/unit_tests.dir/tool.cc.o -o unit_tests  libdemo-repo-library.a ../../extern/googletest/build/lib/libgtest.a ../../extern/googletest/build/lib/libgtest_main.a 
