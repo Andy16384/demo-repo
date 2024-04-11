@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdemo-repo-library.a CMakeFiles/demo-repo-library.dir/main.cc.o CMakeFiles/demo-repo-library.dir/tool.cc.o
+/usr/bin/ranlib libdemo-repo-library.a
