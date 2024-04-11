@@ -1,21 +1,21 @@
-# CMakeLists.txt
-
 cmake_minimum_required(VERSION 3.10)
 project(demo-repo)
 
-# Add the executable
-add_executable(demo-repo main.cc tool.cc)
+set(GTEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../extern/googletest")
+
+include_directories(${GTEST_DIR}/googletest/include)
+
+add_library(demo-repo-library STATIC main.cc tool.cc)
+
+add_executable(main main.cc tool.cc)
+add_executable(unit_tests test_tool.cc tool.cc)
 
 # Specify include directories
-target_include_directories(demo-repo PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(unit_tests
+    demo-repo-library
+    ${GTEST_DIR}/build/lib/libgtest.a
+    ${GTEST_DIR}/build/lib/libgtest_main.a
+)
 
-# Specify output file name
-set_target_properties(demo-repo PROPERTIES OUTPUT_NAME "main.out")
-
-# Add executable for unit tests
-add_executable(tests test_tool.cpp)
-
-# Link Google Test to the test executable
-target_link_libraries(tests gtest gtest_main)
-
-# Optionally, include any additional dependencies or setup for your project
+enable_testing()
+add_test(NAME unit_tests COMMAND unit_tests)

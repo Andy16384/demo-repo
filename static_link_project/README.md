@@ -1,3 +1,5 @@
+# This project is showing how to static-linking, cmake, and unit-test.
+
 1. Directly Compile
 
 g++ main.cc tool.cc -o main.out
@@ -12,8 +14,6 @@ g++ main.cc -o main.out -L. -ltool
 
 CMakeLists.txt:
 ==============================================================================
-# CMakeLists.txt
-
 cmake_minimum_required(VERSION 3.10)
 project(demo-repo)
 

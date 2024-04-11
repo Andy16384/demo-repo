@@ -1,4 +1,3 @@
-// tool.cc
 #include <iostream>
 #include "tool.h"
 
@@ -7,5 +6,9 @@ Tool::Tool() {
 }
 
 void Tool::useTool() const {
-    std::cout << "Using the tool!" << std::endl;
+    std::cout << "Using the tool!\n" << std::endl;
+}
+
+int Tool::tool_num() const {
+    return 404;
 }
