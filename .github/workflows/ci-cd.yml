@@ -12,8 +12,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install CMake
-        run: sudo apt-get install cmake
+      - name: Install necessary packages
+        run: |
+          sudo apt-get install cmake
+          sudo apt-get install libgtest-dev
 
       - name: Configure and Build
         run: |
@@ -26,5 +28,4 @@ jobs:
       - name: Run Tests
         run: |
           cd static_link_project/build
-          ./main.out
           ctest --output-on-failure
