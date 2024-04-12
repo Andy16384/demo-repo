@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cc.o CMakeFiles/main.dir/src/AbstractFactory.cc.o CMakeFiles/main.dir/src/Factory.cc.o CMakeFiles/main.dir/src/Observer.cc.o CMakeFiles/main.dir/src/Singleton.cc.o -o main 

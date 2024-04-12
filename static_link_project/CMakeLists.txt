@@ -1,11 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(demo-repo)
 
-# set(GTEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../extern/googletest")
-# set(GTEST_DIR "/usr/src/googletest" CACHE PATH "Path to the Google Test framework")
-
-include_directories(/usr/include/)
-
 add_library(demo-repo-library STATIC main.cc tool.cc)
 
 add_executable(main main.cc tool.cc)

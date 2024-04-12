@@ -1,0 +1,3 @@
+/desktop/demo-repo/design-patterns/build/CMakeFiles/main.dir
+/desktop/demo-repo/design-patterns/build/CMakeFiles/edit_cache.dir
+/desktop/demo-repo/design-patterns/build/CMakeFiles/rebuild_cache.dir
